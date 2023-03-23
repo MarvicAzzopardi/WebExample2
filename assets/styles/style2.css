@@ -15,3 +15,12 @@ button{
     color: salmon; 
     line-height:15px;
 }
+
+.errorText{
+    color:red;
+}
+
+.inputError{
+    color: red;
+    border: 1px red solid;
+}

@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="contactFormContainer">
-        <form action="mailto:marvicazzopardi2003@gmail.com">
+        <form action="mailto:marvicazzopardi2003@gmail.com" onsubmit="return validateForm();">
         <!--Search Form (fill in box)-->
         <div>
             <label for="fullName">Full Name:</label>
@@ -19,6 +19,7 @@
         <div>
             <label for="nationality">Nationality:</label>
             <select name="nationality" id="nationality">
+                <option value="0">Select Nationality</option>
                 <option value="1">Maltese</option>
                 <option value="2">English</option>
                 <option value="3">Italian</option>
@@ -55,10 +56,14 @@
             </fieldset>
         </div>
         <button type="submit">Save</button>
-        <button type="reset">Reset</button>
+        <button type="reset" onclick="resetForm();">Reset</button>
     </form>
     </div>
         <div id="contactFormErrors">
+            <ul id="errorList" class="errorText">
+            </ul>
         </div>
+
+    <script src="assets/scripts/validation.js"></script>
 </body>
 </html>
