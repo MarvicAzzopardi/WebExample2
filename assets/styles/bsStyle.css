@@ -1,12 +1,15 @@
+/* Custom font decleration */
 @font-face {
     font-family: "helveticaneue";
-    src: url('..assets/type/helveticaneue.ttf');
+    src: url('../type/helveticaneue.ttf');
 }
 
 .btn-orangered{
     color: white;
     background-color: orangered;
     border-color: orangered;
+    /* Using custom font */
+    font-family: 'helveticaneue';
 }
 
 .btn-orangered:hover{
