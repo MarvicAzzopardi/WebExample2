@@ -1,1 +1,32 @@
+@font-face {
+    font-family: "helveticaneue";
+    src: url('..assets/type/helveticaneue.ttf');
+}
 
+.btn-orangered{
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.btn-orangered:hover{
+    color: white;
+    background-color: #d14613;
+    border-color: #d14613;
+}
+
+.btn-orangered:active{
+    color: white;
+    background-color: #d14613;
+    border-color: #d14613;
+}
+
+.btn-orangered:disabled{
+    color: white;
+    background-color: #d14613;
+    border-color: #d14613;
+}
+
+.btn{
+    font-size: 1.5rem;
+}
